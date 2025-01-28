@@ -7,3 +7,4 @@ scikit-learn==1.0.2
 matplotlib==3.5.1
 jupyter==1.0.0
 seaborn==0.11.2
+from sklearn.preprocessing import StandardScaler
