@@ -1,15 +1,14 @@
-# Taxi Fare Prediction Model
+Taxi Fare Prediction Model
+Overview:
+A machine learning model to predict taxi fares using Random Forest and Decision Tree algorithms. The project includes feature engineering, PCA for dimensionality reduction, and end-to-end pipeline optimization to improve prediction accuracy and computational efficiency.
 
-This project predicts taxi fares using machine learning. It includes **feature engineering** (e.g., calculating distance between pickup/dropoff points) and **PCA** for dimensionality reduction.
+Key Features
+Feature Engineering: Engineered temporal (hour, day), spatial (distance metrics), and contextual features from raw data.
 
-## Dataset
-- **Source**: "C:\Users\Aamir\Downloads\TaxiFare.csv"
+Dimensionality Reduction: Applied Principal Component Analysis (PCA) to streamline feature space while retaining 95% variance.
 
-**Columns**:
-  - `pickup_latitude`: Latitude of pickup location
-  - `pickup_longitude`: Longitude of pickup location
-  - `dropoff_latitude`: Latitude of dropoff location
-  - `dropoff_longitude`: Longitude of dropoff location
-  - `fare_amount`: Target variable (fare in USD)
+Model Optimization: Compared performance of Random Forest (higher accuracy) vs. Decision Tree (faster inference) after hyperparameter tuning.
+
+Data Preprocessing: Handled outliers, missing values, and encoded categorical variables for robust training.
 
 
